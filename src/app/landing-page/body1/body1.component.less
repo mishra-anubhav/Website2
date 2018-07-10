@@ -1,0 +1,84 @@
+.heading{
+    font-weight: 500;
+    font-size: 30px ;
+    width:250px;
+    margin-bottom:30px;
+    margin-top:50px;
+    border-bottom: 3px solid #9be353;
+    
+}
+.content{
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px ;
+    width:450px;
+    color: black;
+}
+.left{
+    height:400px;
+    width:400px;
+    margin-left:140px;
+       
+}
+.left1{
+    height:400px;
+    width:400px;
+    margin-left:0px;
+       
+}
+.secondimg
+{
+    height:500px;
+    width:350px;
+    
+}
+.thirdimg{
+   height:550px;
+   width:550px;
+   margin-top:-100px;
+   margin-left:0px;
+}
+.fourthimg{
+    height:470px;
+    width:450px;
+    margin-left:-80px;
+}
+.fifthimg{
+    height:400px;
+    width:450px;
+    margin-top:-50px;
+}
+img{
+    position: absolute;
+    
+   
+    /* Starting position */
+ -moz-transform:translateY(2%);
+ -webkit-transform:translateY(2%);	
+ transform:translateY(2%);
+ /* Apply animation to this element */	
+ -moz-animation: vertically 1s linear infinite alternate;
+ -webkit-animation: vertically 1s linear infinite alternate;
+ animation: vertically 1s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes vertically {
+ 0%   { -moz-transform: translateY(70%); }
+ 100% { -moz-transform: translateY(0%); }
+}
+@-webkit-keyframes vertically {
+ 0%   { -webkit-transform: translateY(70%); }
+ 100% { -webkit-transform: translateY(0%); }
+}
+@keyframes vertically {
+ 0%   { 
+ -moz-transform: translateY(70%); /* Browser bug fix */
+ -webkit-transform: translateY(70%); /* Browser bug fix */
+ transform: translateY(3%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(0%); /* Browser bug fix */
+ -webkit-transform: translateY(0%); /* Browser bug fix */
+ transform: translateY(0%); 
+ }
+}
