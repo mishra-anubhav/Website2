@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+.left{
+    float:left;
+    height:500px;
+    width:500px;
+    margin-bottom:40px;
+   /* background: url(../../../assets/left.png) */
+   
+    
+}
+.heading{
+    font-weight: 500;
+    font-size: 30px  ;
+    margin-top:100px;
+    margin-bottom:20px;
+    width:200px;
+    border-bottom: 3px solid #9be353;
+    
+
+}
+.content{
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px   ;
+    color: black;
+    margin-top:10px;
+    width:400px;
+    
+
+}
+.name2{
+    
+    height:3px;
+    width:200px;
+    background-color:#9be353;
+    border:#9be353;
+   
+}
+.clear {
+  
+    clear: left;
+}
+.right{
+    position:inline;
+    height:500px;
+    width:500px;
+    margin-left:850px;
+    /* background: url(../../../assets/right.png) */
+}
+.img{
+    position: absolute;
+    
+   
+    /* Starting position */
+ -moz-transform:translateY(2%);
+ -webkit-transform:translateY(2%);	
+ transform:translateY(2%);
+ /* Apply animation to this element */	
+ -moz-animation: vertically 1s linear infinite alternate;
+ -webkit-animation: vertically 1s linear infinite alternate;
+ animation: vertically 1s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes vertically {
+ 0%   { -moz-transform: translateY(70%); }
+ 100% { -moz-transform: translateY(0%); }
+}
+@-webkit-keyframes vertically {
+ 0%   { -webkit-transform: translateY(70%); }
+ 100% { -webkit-transform: translateY(0%); }
+}
+@keyframes vertically {
+ 0%   { 
+ -moz-transform: translateY(70%); /* Browser bug fix */
+ -webkit-transform: translateY(70%); /* Browser bug fix */
+ transform: translateY(3%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(0%); /* Browser bug fix */
+ -webkit-transform: translateY(0%); /* Browser bug fix */
+ transform: translateY(0%); 
+ }
+}

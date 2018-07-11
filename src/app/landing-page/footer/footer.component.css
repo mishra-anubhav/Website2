@@ -1,0 +1,72 @@
+
+.footer {
+    padding-left:0px;
+    color:white;
+    height:500px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.514); 
+    background-image:url(../../../assets/map2.png);
+    background-repeat:repeat;
+    
+    
+      }
+.heading{
+    color:#9be353;
+    font-size:35px;
+    font-weight: 500;
+    
+  
+}
+.clear {
+    
+      clear: left;
+      height:300px;
+  }
+  
+p{
+    float:left;
+    color:#9be353;
+}
+.india{
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    font-weight: 500;
+    margin-left:10px;
+}
+.copyright{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:1000px;
+    
+    font-weight: 500;
+}
+.heading:hover{
+    text-decoration: none;
+    cursor: initial;
+}
+a{ 
+    font-size:19px;
+    text-decoration: none;
+    
+ 
+}
+a:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+div{
+    float: left;
+    height:150px;
+    width:20%;
+}
+.icon {
+    font-size: 35px;
+    padding-right:10px;
+ }
+ .footer1{
+     margin-left:130px;
+     width:300px;
+     
+ }
+ 
