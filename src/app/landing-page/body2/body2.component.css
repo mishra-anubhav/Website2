@@ -4,28 +4,15 @@
     text-align:center;
    font-weight: 500;
    margin-top:90px;
-   font-size: 35px;
-   height: 450px;
-   
-}
-p{
-    font-size:10px;
+   font-size: 30px;
+   height: 705px;
 }
 .column {
     float: left;
     width: 300px;
     padding-left:29px;
 }
-.heading{
-    font-weight: 500;
-    font-size: 35px  ;
-    margin-left:500px;
-    margin-bottom:20px;
-    width:280px;
-    border-bottom: 3px solid #9be353;
-    
 
-}
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
@@ -45,11 +32,3 @@ p{
     clear: both;
     display: table;
 } */
-.name2{
-    
-    height:3px;
-    width:250px;
-    background-color:#9be353;
-    border:#9be353;
-   margin-left:550px;
-}

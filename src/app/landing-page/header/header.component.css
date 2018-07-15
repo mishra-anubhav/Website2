@@ -14,11 +14,10 @@
 #name{
    
     font-weight: 500;
-    margin-left:90px;
+    margin-left:110px;
     margin-top: 5px;
-    font-size: 25px   ;
+    font-size: 15px   ;
     color: #9be353;
-    
 }
 .left{
     float:left;
@@ -30,30 +29,26 @@
 .heading{
     font-weight: 500;
     font-size: 30px ;
-    width:300px;
     margin-bottom:20px;
     margin-top:150px;
-    border-bottom: 3px solid #9be353;
-    
+
 }
 .content{
     margin-top:10px;
     font-weight: 400;
-    text-align: left;
-    font-size: 20px ;
-    width:400px;
+    text-align: justify;
+    font-size: 17px ;
     color: black;
-   
 
 }
-/* .name1{
-    padding-left:200px;
+.name1{
+    margin-left:110px;
     height:5px;
-    width:30px;
+    width:50px;
     background-color:#9be353;
     border:#9be353;
    
-} */
+}
 .name2{
     
     height:3px;
@@ -64,31 +59,28 @@
 }
 
 .container{
-    position:relative;
+    position:inline;
     height:650px;
-    width:50vw;
-    margin-left:550px;
+    width:650px;
+    margin-left:660px;
     background:  url(../../../assets/header.png);
     background-repeat: no-repeat;
     padding-top: 50px; 
-    padding-left: 150px; 
+    padding-left: 50px; 
     background-size: 800px;
-    text-align: center;
 }
 
 .design 
 {
-    
-    
     font-weight:400;
     color: white;
     text-decoration: none;
     font-size: 19px ;
-    padding:15px;
+    padding-right: 20px;
     margin-bottom:20px;
     position: relative;
     z-index: 0;
-    text-align:center;
+    
     cursor: pointer;
     transition: color 0.1s linear 0.1s;
     transition: font 0.1s linear 0.1s;
@@ -99,7 +91,7 @@
 
     color: white;
     font-size: 20px  ;
-    
+    text-decoration: underline;
 }
 
 
